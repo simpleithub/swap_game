@@ -1,3 +1,18 @@
 # Godot 4+ specific ignores
 .godot/
-/android/
+.import/
+
+# Export configs (optional — these can be regenerated on export)
+export.cfg
+export_presets.cfg
+
+# Android build (already in your file, keeping it)
+android/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor junk
+.vscode/
+.idea/
